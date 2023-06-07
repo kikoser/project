@@ -1,0 +1,117 @@
+/* Універсальні класи */
+.header-centent-text {
+  font-size: 45px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.content-text-item {
+  font-size: 32px;
+  margin: 32px 70px 32px 70px;
+}
+
+.main-content-item {
+  width: 55%;
+  background-color: antiquewhite;
+  margin: 0 600px 0 600px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: aliceblue;
+}
+/* Header/Footer*/
+.header-position,
+.footer-position {
+  background-image: url(header.jpg);
+  width: 55%;
+  height: 300px;
+  margin: 20px 600px 0 600px;
+}
+.header-link-calculator {
+  width: 100px;
+  height: 40px;
+  background-color: aqua;
+  position: relative;
+  top: 150px;
+  left: 200px;
+  font-size: 36px;
+}
+.header-link-search-list {
+  width: 100px;
+  height: 40px;
+  background-color: aqua;
+  position: relative;
+  top: 150px;
+  left: 400px;
+  font-size: 36px;
+}
+/*  Навіщо рахувати калорії  */
+
+.img-first-position {
+  float: left;
+  width: 350px;
+  margin: 20px 20px 20px 70px;
+}
+.img-secound-position {
+  float: right;
+  width: 250px;
+  margin: 20px 70px 20px 20px;
+}
+/* Калькулятор калорій */
+.header-calculate {
+  font-size: 50px;
+}
+
+.input-position {
+  position: relative;
+  top: 200px;
+  left: 200px;
+}
+.button-item {
+  font-size: 16px;
+  font-weight: 700;
+  border: 1cap;
+  border-radius: 10px;
+  padding: 15px;
+  min-height: 50px;
+  min-width: 240px;
+}
+.input-item {
+  width: 500px;
+  height: 50px;
+  font-size: 24px;
+  text-align: center;
+}
+.output-position {
+  position: relative;
+  top: 200px;
+  left: 500px;
+  font-size: 50px;
+}
+
+.calculator-size {
+  width: 100%;
+  height: 500px;
+  background-color: beige;
+}
+
+.data-size {
+  width: 100%;
+  height: 500px;
+}
+/* Інформація про особливості продуктів */
+.img-third-position {
+  float: left;
+  width: 350px;
+  margin: 20px 20px 20px 70px;
+}
+
+/* БД продуктів */
+.output-position-data {
+  position: relative;
+  top: 150px;
+  left: 600px;
+  font-size: 30px;
+  width: 500px;
+}
